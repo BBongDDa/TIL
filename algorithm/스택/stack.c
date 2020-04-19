@@ -58,3 +58,5 @@ int Pop(Stack* stack)
 	free(now);//필요없으니 메모리 해제
 	return re;
 }
+
+// 정원사 출석 테스트2
