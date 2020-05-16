@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2019100994_이정민_6th_test1</title>
+    <script language='javascript'>
+     function submit_complete(){
+        var win = window.open("./submit.html", "_blank", "toolbar=no,scrollbars=no,resizable=yes,top=300,left=300,width=400,height=200");
+    }
+    </script>
+</head>
+<body style="padding: 3%; margin-right: 40%; background-color: lightgrey">
+
+     <h3>폼 연결하기</h3>
+    
+      <form method="post" action="">
+    
+      <fieldset>
+       <legend>로그인 정보</legend>
+       <label for="user_id">아 이 디 &nbsp;</label> 
+       <input type="text" name="id" id="user_id"> <br> 
+       <label for="user_email">이 메 일 &nbsp;</label> 
+       <input type="email" name="em" id="user_email"> <br> 
+       <label for="user_pw">패스워드</label> 
+       <input type="password" name="pwd" id="user_pw" style="position: relative; left: 7px;">
+      </fieldset> <br>
+      <fieldset>
+       <legend>개인정보</legend>
+       <label for="user_name">이  름</label>
+       <input type="text" name="name" id="user_name" style="position: relative; left: 26px;"> <br>
+       <label for="user_birth">생년월일</label>
+       <input type="text" name="birth" id="user_birth"> <br>
+      </fieldset> <br>
+      <fieldset>
+       <legend>신상정보</legend>
+       성별 <input type="radio" name="s_type" value="male" id="male">
+       <label for="male">남</label>
+       <input type="radio" name="s_type" value="female" id="female">
+       <label for="female">여</label> 
+       <br>취미
+       <input type="checkbox" name="d_type" value="trip" id="trip"><label for="trip">여행</label>
+       <input type="checkbox" name="d_type" value="book" id="book"><label for="book">독서</label>
+       <input type="checkbox" name="d_type" value="movie" id="movie"><label for="movie">영화감상</label>
+       <input type="checkbox" name="d_type" value="game" id="game"><label for="game">게임</label>
+      </fieldset> <br>
+      <fieldset>
+       <legend>소속</legend>
+       학과<input type="text" list="major" style="margin-left: 10px;">
+       <datalist id="major">
+       <option value="컴퓨터학과">
+       <option value="메카트로닉스학과">
+       <option value="영문학과">
+       <option value="국문학과">
+       </datalist>
+      </fieldset> <br>
+    
+      <input type="submit" value="가입하기" onclick="submit_complete()" >
+      <input type="reset" value="취소" onclick='alert("가입이 취소되었습니다")'>
+     </form>
+    
+</body>
+</html>
