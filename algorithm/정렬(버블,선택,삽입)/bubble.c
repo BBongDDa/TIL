@@ -24,7 +24,7 @@ int main() {
             for (int j = 0; j < num5 - 1; j++) {
                 if (arr[j] > arr[j + 1]) {
                     change = arr[j];
-                    arr[j] = arr[j + 1];  //swap을 쓰고 싶은데 기억이 안나요..
+                    arr[j] = arr[j + 1];  //swap
                     arr[j + 1] = change;
                 }
             }
@@ -36,7 +36,7 @@ int main() {
         }
         return 0;
     }
-    // 작동x..
+
     else {
         printf("error");
     }

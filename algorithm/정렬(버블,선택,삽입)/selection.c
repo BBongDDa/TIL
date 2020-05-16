@@ -28,8 +28,7 @@ int main() {
         }
     }
 
-    printf("\n결과값 : "); //음.. 반대로 나와요..ㅜㅜㅜㅜ
-                            // 사실 내림차순으로 해봤어요..? ㅜ
+    printf("\n결과값 : "); 
             for (int i = 0; i < max; i++) {
                 printf("%2d", arr[i]);
             }
