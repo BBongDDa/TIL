@@ -1,0 +1,7 @@
+﻿  merge.c
+C:\SAHMYOOKUNI\TIL\algorithm\정렬(버블,선택,삽입,병합)\merge\merge\merge.c(51,65): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+C:\SAHMYOOKUNI\TIL\algorithm\정렬(버블,선택,삽입,병합)\merge\merge\merge.c(57,46): error C2065: 'size1': 선언되지 않은 식별자입니다.
+C:\SAHMYOOKUNI\TIL\algorithm\정렬(버블,선택,삽입,병합)\merge\merge\merge.c(58,47): error C2065: 'size1': 선언되지 않은 식별자입니다.
+C:\SAHMYOOKUNI\TIL\algorithm\정렬(버블,선택,삽입,병합)\merge\merge\merge.c(59,44): error C2065: 'size1': 선언되지 않은 식별자입니다.
+C:\SAHMYOOKUNI\TIL\algorithm\정렬(버블,선택,삽입,병합)\merge\merge\merge.c(63,13): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+C:\SAHMYOOKUNI\TIL\algorithm\정렬(버블,선택,삽입,병합)\merge\merge\merge.c(9): fatal error C1075: '{': 일치하는 토큰을 찾을 수 없습니다.
