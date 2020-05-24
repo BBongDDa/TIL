@@ -1,0 +1,5 @@
+﻿  binary_tree.c
+C:\SAHMYOOKUNI\TIL\algorithm\이진트리\Binary_tree\Binary_tree\binary_tree.c(159,16): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'char *'입니다.
+C:\SAHMYOOKUNI\TIL\algorithm\이진트리\Binary_tree\Binary_tree\binary_tree.c(160,16): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'TreeNode **'입니다.
+C:\SAHMYOOKUNI\TIL\algorithm\이진트리\Binary_tree\Binary_tree\binary_tree.c(161,16): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'TreeNode **'입니다.
+  Binary_tree.vcxproj -> C:\SAHMYOOKUNI\TIL\algorithm\이진트리\Binary_tree\Debug\Binary_tree.exe
