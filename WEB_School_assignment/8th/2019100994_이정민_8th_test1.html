@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>홀수인가_짝수인가</title>
+</head>
+<body style="background-color: lightblue; padding: 25%;">
+		<div style="text-align: center;">
+		<h3>홀수인가 짝수인가</h3>
+		<h6>작동 이상시 새로고침하세요</h6>
+		</div>
+		<script type="text/javascript">
+			var num 
+			var answer = prompt("숫자를 입력하세요 :");
+			if(answer==0){
+				alert("0은 짝수도 홀수도 아니지만, 2의 배수입니다");
+				system("pause");
+			}
+			else if (answer%2==0) {
+			 num=0
+			}
+			else {
+			 num=1
+			}
+			
+			parseInt(answer);
+			
+			if(num==0){
+				alert("입력한 숫자" + answer + "는 짝수입니다");
+			}
+			
+			else{
+				alert("입력한 숫자" + answer + "는 홀수입니다");
+			}
+			
+			</script>
+</body>
+</html>
