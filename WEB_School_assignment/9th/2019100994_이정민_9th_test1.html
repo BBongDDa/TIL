@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>홀수/짝수 구분하여 출력(2,색깔별)</title>
+    <h1 style="text-align: center; font-size: 2rem; margin-bottom: 150px;">[수행평가] 홀수/짝수 구분하여 출력</h1>
+
+<script type="text/javascript">
+    document.write("<table border=0>");
+    document.write("<tr>");
+    var i =1;
+    for(i=1; i<11; i++){
+        if (i%2==0){
+            document.write("<td bgcolor=red>"+i);
+        }
+        else{
+            document.write("<td bgcolor=green>"+i);
+        }
+    }
+
+</script>
+
+<style>
+   body{
+        margin: 10%;
+    }
+    table{
+        width : 100%;
+        text-align: center;
+    }
+    td{
+        padding: 2%;
+        width: 17px;
+        max-width: 18px;
+        color: white;
+        font-weight: bold;
+    }
+</style>
+
+</head>
+<body>
+</body>
+</html>
